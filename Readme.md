@@ -13,7 +13,8 @@ There is some setup involved so you'll need to review the application code as yo
 ## Step 2: Install Beanstalk Application
 - zip the application folder and upload as a new application in beanstalk 
 - Install the application in to beanstalk 
-- Be sure to use the target instance profile during this phase 
+- Be sure to use the target instance profile during this phase
+- This application is configured to use Python 3.11. If you change this, you need to adjust the Procfile accordingly. 
 
 ## Step 3: Profit 
 - Should receive a shell if your payload is setup correctly 
