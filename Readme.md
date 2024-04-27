@@ -1,7 +1,7 @@
 # Malicious Beanstalk
 
 ## Intro
-Malicious beanstalk is an application that can be used for privilege escalation in Beanstalk. It is most useful when IMDSv1 is enabled, you have admin in Beanstalk, and there are higher privileges associated with an available instance profile. 
+Malicious beanstalk is an application that can be used for privilege escalation in Beanstalk. You need have admin in Beanstalk (to deploy an app), and is useful when there are higher privileges associated with an available instance profile. 
 
 There is some setup involved so you'll need to review the application code as you go through the steps below. 
 
